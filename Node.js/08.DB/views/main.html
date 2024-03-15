@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+<h4>메인 페이지</h4>
+{% if nickname %}
+<p>{{nickname}}님 환영합니다. 🖤</p>
+{% else %}
+<p>로그인을 해주세요.</p>
+{% endif %}
+{% endblock%}
